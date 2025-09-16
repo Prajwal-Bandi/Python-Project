@@ -1,0 +1,9 @@
+Flask
+SQLAlchemy
+email-validator
+requests
+beautifulsoup4
+pytest
+pytest-flask
+pylint
+flake8
