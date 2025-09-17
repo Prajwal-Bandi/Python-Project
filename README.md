@@ -28,20 +28,9 @@ pip install -r requirements.txt
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/USERNAME/REPO_NAME.git
+    
     cd REPO_NAME
-    ```
-
-2. (Optional) Create and activate a virtual environment:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+     ```
 
 ---
 
@@ -56,7 +45,6 @@ Edit `app/config.py` to set:
 
 ---
 
-## Usage
 
 ### Running the Server
 
