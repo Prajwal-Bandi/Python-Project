@@ -21,32 +21,5 @@ A Python Flask API for managing patient records with full CRUD, email notificati
 pip install -r requirements.txt
 
 
-
----
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    
-    cd REPO_NAME
-     ```
-
----
-
-## Configuration
-
-Edit `app/config.py` to set:
-
-- `SQLALCHEMY_DATABASE_URI` for your SQLite DB location
-- SMTP settings (`SMTP_SERVER`, `SMTP_PORT`, `SMTP_USERNAME`, `SMTP_PASSWORD`)
-- Email addresses (`EMAIL_FROM`, `EMAIL_TO`)
-- Batch size for average age calculation (`BATCH_SIZE`)
-
----
-
-
-### Running the Server
-
 ```bash
 python run.py
