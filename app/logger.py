@@ -1,3 +1,7 @@
+"""
+    Logger to print details in CLI
+"""
+
 import logging
 import json_log_formatter
 

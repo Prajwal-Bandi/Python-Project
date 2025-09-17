@@ -1,3 +1,6 @@
+"""
+    Using cli as client to apply CRUD and store in DB
+"""
 import requests
 import argparse
 

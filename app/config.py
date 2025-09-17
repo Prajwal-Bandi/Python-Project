@@ -1,8 +1,12 @@
+"""
+    This is a config file used to store important info.
+"""
+
 import os
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(BASE_DIR, '../../db.sqlite')}"
+SQLALCHEMY_DATABASE_URI = f"sqlite:///{os.path.join(BASE_DIR, 'db.sqlite')}"
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587

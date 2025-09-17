@@ -1,3 +1,6 @@
+"""
+    Using SQLAlchemy for storing local sessions and data.
+"""
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from .config import SQLALCHEMY_DATABASE_URI

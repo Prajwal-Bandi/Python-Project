@@ -1,3 +1,7 @@
+"""
+    All four CRUD operations are mentioned : Creating Patient , Reading , Updating patient and Deleting Patient
+"""
+
 from sqlalchemy.exc import NoResultFound
 from .models import Patient
 from .db import SessionLocal

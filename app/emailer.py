@@ -1,3 +1,6 @@
+"""
+    We sent an automated mail to admin which is Prajwal in our case when patient is created
+"""
 import threading
 import smtplib
 from email.mime.text import MIMEText

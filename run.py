@@ -1,3 +1,7 @@
+"""
+    Main server running 
+"""
+
 from app import create_app
 from app.db import init_db
 

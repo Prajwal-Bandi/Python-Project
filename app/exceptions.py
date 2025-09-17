@@ -1,11 +1,7 @@
-from flask import jsonify
-from .exceptions import PatientNotFound
+"""
+Custom exceptions
+"""
 
-def init_routes(app):
-    # ... your routes
-
-    @app.errorhandler(PatientNotFound)
-    def handle_not_found(error):
-        response = jsonify({"error": str(error)})
-        response.status_code = 404
-        return response
+class PatientNotFound(Exception):
+    """Raised when a patient is not found in the database."""
+    pass
